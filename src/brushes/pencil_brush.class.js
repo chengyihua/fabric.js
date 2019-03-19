@@ -210,6 +210,10 @@
         strokeMiterLimit: this.strokeMiterLimit,
         strokeLineJoin: this.strokeLineJoin,
         strokeDashArray: this.strokeDashArray,
+        globalCompositeOperation: this.globalCompositeOperation,
+        id: this.id,
+        lockMovementX: this.lockMovementX,
+        lockMovementY: this.lockMovementY
       });
       var position = new fabric.Point(path.left + path.width / 2, path.top + path.height / 2);
       position = path.translateToGivenOrigin(position, 'center', 'center', path.originX, path.originY);
